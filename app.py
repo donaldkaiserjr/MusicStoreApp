@@ -13,6 +13,12 @@ class Product:
         self.product_details = []
 
     def register(self,name,price,model,serial_num,store_location,store_phone):
+        self.name = name
+        self.price = price
+        self.model = model
+        self.serial_num = serial_num
+        self.store_location = store_location
+        self.store_phone = store_phone
         conditions = True
         if len(str(store_phone)) > 10 or len(str(store_phone)) < 10:
             print("Invalid phone number. Please make sure the number is 10 digits with no dashes.")
