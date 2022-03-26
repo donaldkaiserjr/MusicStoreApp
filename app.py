@@ -1,6 +1,3 @@
-
-
-
 class Product:
     '''This class allows one to input information regarding
     products to be sold at various departments of a music store. 
